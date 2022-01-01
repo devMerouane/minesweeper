@@ -1,0 +1,22 @@
+.header {
+  margin-bottom: 2rem;
+}
+.header > h1 {
+  color: #fff;
+  font-size: 3.2rem;
+}
+.status_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
+.bombs,
+.emoji,
+.timer {
+  font-size: 1.8rem;
+  color: #fff;
+}
+.emoji {
+  cursor: pointer;
+}

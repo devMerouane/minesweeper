@@ -1,0 +1,45 @@
+.cell {
+  width: 4.2rem;
+  height: 4.2rem;
+  background-color: lightskyblue;
+  border-radius: 5px;
+  outline: none;
+  border-width: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+.cell:active {
+  background-color: #fff;
+  color: rgb(9, 132, 277);
+}
+.cell__active {
+  background-color: #fff;
+}
+.cell-value__1 {
+  color: blue;
+}
+.cell-value__2 {
+  color: green;
+}
+.cell-value__3 {
+  color: red;
+}
+.cell-value__4 {
+  color: purple;
+}
+.cell-value__5 {
+  color: maroon;
+}
+.cell-value__6 {
+  color: turquoise;
+}
+.cell-value__7 {
+  color: black;
+}
+.cell-value__8 {
+  color: grey;
+}
